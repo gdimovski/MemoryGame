@@ -51,8 +51,8 @@
          
   ##
   private void label_click(object sender, EventArgs e)  - <b>Главната функција на задачата </b>     
-    {  
-            if (first != null && second != null)
+    {    
+            if (first != null && second != null)  
               return; - Доколку не е кликнато ниедно квадратче излегуваме од функцијата  
  
             Label clicked = sender as Label;  
