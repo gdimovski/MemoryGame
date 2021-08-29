@@ -5,6 +5,8 @@
 сите 8 пара идентични симболи. Апликацијата му ги брои чекорите на играчот како и времето потребно да ги најди сите симболи. Кога ќе ја заврши играта има опција да започне од
 почеток или да излезе од апликацијата. Апликацијата има копче New Game кое ја рестартира играта со нови 16 симболи. 
 <img src="https://user-images.githubusercontent.com/63555005/131264421-efd2538f-bdce-49a1-bbff-74db30aefec1.JPG" alt="startingPhoto" width="500" height="350">
-<img src="https://github.com/gdimovski/MemoryGame/issues/2#issue-982197294" alt="GameFinished" width="500" height="350">
+<img src="https://user-images.githubusercontent.com/63555005/131264599-00a76803-0804-47f1-9ab0-d072af85968e.JPG" alt="lookingForMatch" width="500" height="350">
+<img src="https://user-images.githubusercontent.com/63555005/131264593-01640097-e809-4dc1-8548-24952e7c67cf.JPG" alt="gameFinished" width="500" height="350">
+
 
 
