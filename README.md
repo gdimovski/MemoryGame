@@ -27,30 +27,32 @@
   
  
      
-  private void StartGame()  
+  private void StartGame()   
        <b>Функција за започнување на играта.</b>  
  
     
   
-  private void timer2_Tick(object sender, EventArgs e)  
+  private void timer2_Tick(object sender, EventArgs e)    
         <b>Тајмер за изминатото време на играње.</b>    
  
-    
+      
+   
+   
   
-  private void newGame_Click(object sender, EventArgs e)  
+  private void newGame_Click(object sender, EventArgs e)      
         <b>Функција за копчето New Game.</b>  
  
-    
+      
   
-  private void CheckWin() 
-         <b>Функција која проверува дали играчот ја завршил играта односно дали ѓи пронајдол сите парови на симболи</b>  
+  private void CheckWin()   
+         <b>Функција која проверува дали играчот ја завршил играта односно дали ѓи пронајдол сите парови на симболи</b>    
  
     
          
   
   private void label_click(object sender, EventArgs e)  - <b>Главната функција на задачата </b>     
-    {     
-            if (first != null && second != null)  
+    {  
+ if (first != null && second != null)  
               return;  - Доколку не е кликнато ниедно квадратче излегуваме од функцијата  
 
             Label clicked = sender as Label;  
@@ -83,7 +85,6 @@
             else  
                 timer1.Start();  - доколку двата кликнати симболи се совпаѓаат помошните покажувачи се ресетираат , а доколку не се совпаѓаат се користи тајмер кој одлучува колку                 долго ќе бидат превртени симболите пред да се скријат  
             
-    
     }  
  
 
