@@ -16,10 +16,10 @@
  System.Diagnostics.Stopwatch timer = new System.Diagnostics.Stopwatch(); - <b>стоперица за изминатото време од почетокот на играта </b>
  
   private List<char> generatePictures()
-  {
+  {\n
       <b>Функција која генерира 8 пара рандом броеви. Сите парови се различни еден од друг. Рандом броевите ги претворува во карактери кои ги преставуваат симболите благодарејќи           на
       фонтот „Wingdings“</b>
-  }
+  \n}
   
    private void timer1_Tick(object sender, EventArgs e) 
    {
