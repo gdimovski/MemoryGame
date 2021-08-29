@@ -16,40 +16,42 @@
  System.Diagnostics.Stopwatch timer = new System.Diagnostics.Stopwatch(); - <b>стоперица за изминатото време од почетокот на играта </b>  
  
   private List<char> generatePictures()  
-    {    
       <b>Функција која генерира 8 пара рандом броеви. Сите парови се различни еден од друг. Рандом броевите ги претворува во карактери кои ги преставуваат симболите благодарејќи           на
       фонтот „Wingdings“</b>    
-    }   
+ 
+ 
+    
   
    private void timer1_Tick(object sender, EventArgs e)  
-     {  
         <b>Тик функција на тајмер кој се користи за да се определи колку долго две погрешно спарени симболи ќе останат превртени пред повторно да се скријат</b>  
-     }  
   
+ 
+     
   private void StartGame()  
-     {  
        <b>Функција за започнување на играта.</b>  
-     }  
+ 
+    
   
   private void timer2_Tick(object sender, EventArgs e)  
-     {  
         <b>Тајмер за изминатото време на играње.</b>    
-     }  
+ 
+    
   
   private void newGame_Click(object sender, EventArgs e)  
-     {  
         <b>Функција за копчето New Game.</b>  
-     }   
+ 
+    
   
-  private void CheckWin()  
-     {  
+  private void CheckWin() 
          <b>Функција која проверува дали играчот ја завршил играта односно дали ѓи пронајдол сите парови на симболи</b>  
-     }    
+ 
+    
+         
   
   private void label_click(object sender, EventArgs e)  - <b>Главната функција на задачата </b>     
     {     
             if (first != null && second != null)  
-                return;  - Доколку не е кликнато ниедно квадратче излегуваме од функцијата  
+              return;  - Доколку не е кликнато ниедно квадратче излегуваме од функцијата  
 
             Label clicked = sender as Label;  
             if (clicked == null)  
